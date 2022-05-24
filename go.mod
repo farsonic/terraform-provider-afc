@@ -7,6 +7,7 @@ require github.com/hashicorp/terraform-plugin-sdk/v2 v2.0.0-rc.2
 require (
 	github.com/agext/levenshtein v1.2.2 // indirect
 	github.com/apparentlymart/go-textseg v1.0.0 // indirect
+	github.com/farsonic/afc-client v0.0.0-20220524032439-846d0217693e // indirect
 	github.com/golang/protobuf v1.3.4 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-cty v1.4.1-0.20200414143053-d3edf31b6320 // indirect
