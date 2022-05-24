@@ -1,10 +1,9 @@
 package main
 
 import (
+	afc "github.com/farsonic/terraform-provider-afc/afc"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-
-	afc "https://github.com/farsonic/terraform-provider-afc"
 )
 
 func main() {
