@@ -2,11 +2,10 @@ package afc
 
 import (
 	"context"
+	"log"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-
-	afc_client "github.com/farsonic/afc-client"
 )
 
 func resourceUsers() *schema.Resource {
@@ -59,38 +58,37 @@ func resourceUsers() *schema.Resource {
 					},
 				},
 			},
-			"_id": &schema.Schema{
+			"auth_source_uuid": &schema.Schema{
 				Type:        schema.TypeString,
 				Computed:    true,
 				Description: "UUID value",
 			},
-			"_id": &schema.Schema{
+			"auth_source_name": &schema.Schema{
 				Type:        schema.TypeString,
 				Computed:    true,
 				Description: "Authentication Source",
 			},
-			"_id": &schema.Schema{
+			"distinguished_name": &schema.Schema{
 				Type:        schema.TypeString,
 				Computed:    true,
 				Description: "Distinguised name (DN) of client certificate",
-				},
 			},
-			"_id": &schema.Schema{
+			"role": &schema.Schema{
 				Type:        schema.TypeString,
 				Computed:    true,
 				Description: "User role",
 			},
-			"_id": &schema.Schema{
+			"token_lifetime": &schema.Schema{
 				Type:        schema.TypeString,
 				Computed:    true,
 				Description: "Lifetime of generated authentication token",
 			},
-			"_id": &schema.Schema{
+			"username": &schema.Schema{
 				Type:        schema.TypeString,
 				Computed:    true,
 				Description: "Username",
 			},
-			"_id": &schema.Schema{
+			"uuid": &schema.Schema{
 				Type:        schema.TypeString,
 				Computed:    true,
 				Description: "UUID",
@@ -119,7 +117,9 @@ func resourceUsersRead(ctx context.Context, d *schema.ResourceData, m interface{
 
 func resourceUsersUpdate(ctx context.Context, d *schema.ResourceData, m interface{}) diag.Diagnostics {
 	log.Printf("[DEBUG] %s: Beginning resourceUsersUpdate", d.Id())
-	return resourceOrderRead(ctx, d, m)
+	var diags diag.Diagnostics
+	//return resourceOrderRead(ctx, d, m)
+	return diags
 }
 
 func resourceUsersDelete(ctx context.Context, d *schema.ResourceData, m interface{}) diag.Diagnostics {
