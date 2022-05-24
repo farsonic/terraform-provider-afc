@@ -15,7 +15,7 @@ func resourceUsers() *schema.Resource {
 		ReadContext:   resourceUsersRead,
 		UpdateContext: resourceUsersUpdate,
 		DeleteContext: resourceUsersDelete,
-		Schema:        map[string]*schema.Schema{
+		Schema: map[string]*schema.Schema{
 			"users": &schema.Schema{
 				Type:     schema.TypeList,
 				Computed: true,
