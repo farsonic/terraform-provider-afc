@@ -1,6 +1,0 @@
-make: Entering directory `/Users/fprowse/Documents/scripts/terraform-provider-afc'
-go build -o terraform-provider-afc
-mkdir -p ~/.terraform.d/plugins/github.com/afc_provider/afc/0.3.1/darwin_amd64
-mv terraform-provider-afc ~/.terraform.d/plugins/github.com/afc_provider/afc/0.3.1/darwin_amd64
-make: Leaving directory `/Users/fprowse/Documents/scripts/terraform-provider-afc'
- 
