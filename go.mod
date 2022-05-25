@@ -1,9 +1,10 @@
-module github.com/farsonic/terraform-provider-afc
+module afc
 
 go 1.18
 
 require (
-	github.com/farsonic/afc-client v0.0.0-20220524043934-c2846bbacf30
+	github.com/farsonic/afc-client v0.0.0-20220525032434-c72bbe7a540c
+	github.com/farsonic/terraform-provider-afc v0.0.0-20220525044808-028bc9f27343
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.16.0
 )
 

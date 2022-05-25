@@ -29,8 +29,10 @@ github.com/envoyproxy/go-control-plane v0.9.4/go.mod h1:6rpuAdCZL397s3pYoYcLgu1m
 github.com/envoyproxy/go-control-plane v0.9.9-0.20201210154907-fd9021fe5dad/go.mod h1:cXg6YxExXjJnVBQHBLXeUAgxn2UodCpnH306RInaBQk=
 github.com/envoyproxy/go-control-plane v0.9.10-0.20210907150352-cf90f659a021/go.mod h1:AFq3mo9L8Lqqiid3OhADV3RfLJnjiw63cSpi+fDTRC0=
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
-github.com/farsonic/afc-client v0.0.0-20220524043934-c2846bbacf30 h1:ML1oy9lBCzd6QCFlGmUe9xTJ8bLFyL08rIVjkRrGntU=
-github.com/farsonic/afc-client v0.0.0-20220524043934-c2846bbacf30/go.mod h1:mCPV0qFAMT/hiap06oPLzfas68DmTkqwe72UCXmAz0o=
+github.com/farsonic/afc-client v0.0.0-20220525032434-c72bbe7a540c h1:zzxCZWRU1dGZY6ZK335jyiNAoQUiyPmQQ/GwLcir8zA=
+github.com/farsonic/afc-client v0.0.0-20220525032434-c72bbe7a540c/go.mod h1:mCPV0qFAMT/hiap06oPLzfas68DmTkqwe72UCXmAz0o=
+github.com/farsonic/terraform-provider-afc v0.0.0-20220525044808-028bc9f27343 h1:3qGtUhL0prEFVUGDLfDpovYnuvoK5tJegoNKeNxZPRg=
+github.com/farsonic/terraform-provider-afc v0.0.0-20220525044808-028bc9f27343/go.mod h1:49PJXN3m/csMKuYIIT17dIxjFin24aVVVeIyEoYe4D0=
 github.com/fatih/color v1.7.0 h1:DkWD4oS2D8LGGgTQ6IvwJJXSL5Vp2ffcQg58nFV38Ys=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=

@@ -24,6 +24,23 @@ func Provider() *schema.Provider {
 				Required:    true,
 				DefaultFunc: schema.EnvDefaultFunc("AFC_URL", "http://localhost:8000"),
 			},
+			"username": &schema.Schema{
+				Type:        schema.TypeString,
+				Optional:    true,
+				DefaultFunc: schema.EnvDefaultFunc("AFC_USERNAME", nil),
+			},
+			"password": &schema.Schema{
+				Type:        schema.TypeString,
+				Optional:    true,
+				Sensitive:   true,
+				DefaultFunc: schema.EnvDefaultFunc("AFC_PASSWORD", nil),
+			},
+			"token": &schema.Schema{
+				Type:        schema.TypeString,
+				Optional:    true,
+				Sensitive:   true,
+				DefaultFunc: schema.EnvDefaultFunc("AFC_TOKEN", nil),
+			},
 		},
 		ConfigureContextFunc: providerConfigure,
 	}
