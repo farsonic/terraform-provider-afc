@@ -3,8 +3,9 @@ HOSTNAME=github.com
 NAMESPACE=farsonic
 NAME=afc
 BINARY=terraform-provider-${NAME}
-VERSION=0.0.4
-OS_ARCH=aarch64
+VERSION=0.0.16
+OS_ARCH=darwin_arm64
+OS=darwin
 
 default: install
 
