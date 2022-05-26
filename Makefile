@@ -3,7 +3,7 @@ HOSTNAME=github.com
 NAMESPACE=farsonic
 NAME=afc
 BINARY=terraform-provider-${NAME}
-VERSION=0.0.19
+VERSION=0.0.33
 OS_ARCH=darwin_arm64
 OS=darwin
 
